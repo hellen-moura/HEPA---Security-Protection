@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 0px 20px;
+}
+.background-menu {
+    background-color: #e2b0b0;
+    border-radius: 10px;
+}
+
+.img-logo {
+    width: 115px; 
+    height: 70px;
+    margin: 10px ; 
+    display: block;
+    padding-left: 50px;
+    
+}
+
+.menu-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.menu-dashboard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-dashboard ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px; 
+    cursor: pointer;
+    border-radius: 8px; 
+}
+
+.menu-dashboard ul li img {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
+}
+
+.menu-dashboard ul li:hover {
+    background-color: #e2b0b0;
+}
+
+.menu-dashboard hr {
+    border: none;
+    border-top: 1px solid #555;
+    margin: 8px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 70px;
+    width: 90%;
+    
+}
+
+
+
+
+
+
+
