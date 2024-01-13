@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'font-paragrafo-bold';
+    src: url(assets/fontes/inter/static/Inter-Bold.ttf);
+}
+
+ /* reset da pagina  */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+/* começando estilização do header */
+/* scroll suave na pagina html */
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    height: 108px;
+    background-color: #ffffff;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+    /* width: 1440px; */
+
+}
+
+/*responsavel pela organização dos componentes do header */
+.links-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F03D3D;
+    align-items: center;
+    padding: 30px;
+}
+
+/* remover a estilização que vem por padrao nos links da ul li  */
+.links-header ul li {
+    list-style-type: none;
+    text-decoration: none;
+    /*remove as bolinhas laterais*/
+}
+
+.links-header .nav-links a {
+    text-decoration: none;
+    /* realiza a remoção do sublinhado dos links */
+    color: #F03D3D;
+    font-family: font-paragrafo-bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    /*realiza o espaçamento interno dos links*/
+    align-items:center;
+}
+.links-header .nav-links a:hover {
+    /* efeito de quando passa o mause sobre os links o mesmo muda de cor para preto*/
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+    /* tempo para realizar mudança de cor*/
+}
+
+.nav-links {
+    /*realiza oespaçamento dos links e deixa os mesmos na horizontal*/
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 377px;
+    height: 64px ; 
+}
+
+.cor {
+    background:  #FFFFFF;
+    display: flex;
+}
+
+.propaganda {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    
+}
+.portal {
+    width: 102.5px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer {
+    /* border: solid 2px green; */
+    background-color: #ffffff;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.5);
+}
