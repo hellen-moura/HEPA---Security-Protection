@@ -25,6 +25,10 @@ body {
   transition: .5s;
  
 }
+.dark-mode {
+  background-color: #181426;
+  color: #fff;
+}
 
 .titulo {
   gap: 30px;
